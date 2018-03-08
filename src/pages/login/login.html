@@ -8,6 +8,7 @@
 
 
 <ion-content>
+  <img src="../../assets/img/emilia.png">
   <ion-list>
     <ion-item>
       <ion-label floating>Username</ion-label>
@@ -18,10 +19,10 @@
       <ion-label floating>Password</ion-label>
       <ion-input  [(ngModel)]="user.password"  type="password"></ion-input>
     </ion-item>
-    <ion-item>
-      <button ion-button full (click)="login()">Login</button>
-      <button ion-button full color="light" (click)="register()">Register</button>
-      <button ion-button full color="danger" (click)="google()">Login with Google</button>
-    </ion-item>
+    
+      <button ion-button block (click)="login()">Login</button>
+    
+      <button ion-button outline block (click)="register()">Register</button>
+    
   </ion-list>
 </ion-content>

@@ -43,7 +43,4 @@ export class LoginPage {
   register(){
     this.navCtrl.push(RegisterPage);
   }
-  // google(){
-  //   this.authService.loginWithGoogle();
-  // }
 }
