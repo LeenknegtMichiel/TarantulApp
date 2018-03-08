@@ -3,6 +3,10 @@ import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { MyApp } from './app.component';
 
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { AngularFireModule } from 'angularfire2';
+import { AngularFireAuth, AngularFireAuthModule } from 'angularfire2/auth';
+
 import { AboutPage } from '../pages/about/about';
 import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
@@ -10,6 +14,15 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+
+var config = {
+  apiKey: "AIzaSyDVD85_Syt4CJfH4fQ2xiQAvO1rMLs6nwY",
+  authDomain: "tarantulapp-fb1d0.firebaseapp.com",
+  databaseURL: "https://tarantulapp-fb1d0.firebaseio.com",
+  projectId: "tarantulapp-fb1d0",
+  storageBucket: "tarantulapp-fb1d0.appspot.com",
+  messagingSenderId: "955414792477"
+};
 
 @NgModule({
   declarations: [
@@ -21,7 +34,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    IonicModule.forRoot(MyApp),
+    AngularFireDatabaseModule,
+    AngularFireAuthModule,
+    AngularFireModule.initializeApp(config)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -34,7 +50,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {}
+export class AppModule { }
