@@ -14,6 +14,7 @@ import { TabsPage } from '../pages/tabs/tabs';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 
 var config = {
   apiKey: "AIzaSyDVD85_Syt4CJfH4fQ2xiQAvO1rMLs6nwY",
@@ -50,7 +51,8 @@ var config = {
   providers: [
     StatusBar,
     SplashScreen,
-    { provide: ErrorHandler, useClass: IonicErrorHandler }
+    { provide: ErrorHandler, useClass: IonicErrorHandler },
+    AuthServiceProvider
   ]
 })
 export class AppModule { }
