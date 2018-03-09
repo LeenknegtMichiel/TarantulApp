@@ -6,10 +6,11 @@
 
 <ion-content class="card-background-page">
 
-  <ion-card>
+  <ion-card (click)="details()">
     <img src="../../assets/img/B angustum prof pic.jpg"/>
     <div class="card-title">Brachypelma sp. Angustum</div>
     <div class="card-subtitle"><br/> Female <br/> Last fed 09/03/18 <br/> Last molt 36 days ago</div>
+    <button ion-button color="light" round (click)="details()">details</button>
   </ion-card>
 
   <ion-card>

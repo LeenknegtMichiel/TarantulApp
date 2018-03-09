@@ -17,6 +17,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
 import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
+import { DetailsPage } from '../pages/details/details';
 
 
 var config = {
@@ -36,7 +37,8 @@ var config = {
     HomePage,
     TabsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    DetailsPage
   ],
   imports: [
     BrowserModule,
@@ -53,7 +55,8 @@ var config = {
     HomePage,
     TabsPage,
     LoginPage,
-    RegisterPage
+    RegisterPage,
+    DetailsPage
   ],
   providers: [
     StatusBar,
