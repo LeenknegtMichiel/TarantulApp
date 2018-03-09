@@ -1,6 +1,9 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>Home</ion-title>
+    <ion-title>My collection</ion-title>
+    <ion-buttons end> 
+      <button ion-button (onclick)="menu()"> menu </button>
+    </ion-buttons>
   </ion-navbar>
 </ion-header>
 
@@ -9,8 +12,7 @@
   <ion-card (click)="details()">
     <img src="../../assets/img/B angustum prof pic.jpg"/>
     <div class="card-title">Brachypelma sp. Angustum</div>
-    <div class="card-subtitle"><br/> Female <br/> Last fed 09/03/18 <br/> Last molt 36 days ago</div>
-    <button ion-button color="light" round (click)="details()">details</button>
+    <div class="card-subtitle"><br/> Female <br/> Last fed 09/03/18 <br/> Last molt 36 days ago</div>   
   </ion-card>
 
   <ion-card>

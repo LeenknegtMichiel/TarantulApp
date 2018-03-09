@@ -14,5 +14,8 @@ export class HomePage {
   details(){
     this.navCtrl.push(DetailsPage);
   }
+  menu(){
+    
+  }
 
 }
