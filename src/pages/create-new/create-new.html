@@ -15,46 +15,41 @@
 
 <ion-content padding>
   <ion-content>
-    <img src="../../assets/img/camera.jpg" class="middle" width="200px" height="250px"/>
-    Upload Picture <br/>
-    <ion-card>
-        <ion-card-header>
-          <ion-item>  
-            <ion-label>Genus</ion-label>
-            <ion-select [(ngModel)]="genus">
-              <ion-option value="Brach">Brachypelma</ion-option>
-              <ion-option value="Psal">Psalmopoeus</ion-option>
-              <ion-option value="Avic">Avicularia</ion-option>
-              <ion-option value="Acan">Acanthoscurria</ion-option>
-              <ion-option value="Tapie">Tapinauchenius</ion-option>
-            </ion-select>
-          </ion-item>
-          <ion-item>  
-            <ion-label>Species</ion-label>
-            <ion-select [(ngModel)]="species">
-              <ion-option value="albo">albopilosum</ion-option>
-              <ion-option value="ha">hamorii</ion-option>
-              <ion-option value="ve">verdezi</ion-option>
-              <ion-option value="an">angustum</ion-option>
-              <ion-option value="sm">smithi</ion-option>
-              <ion-option value="em">emilia</ion-option>
-              <ion-option value="sa">sabulosum</ion-option>
-              <ion-option value="ka">kahlenbergi</ion-option>
-              <ion-option value="albi">albiceps</ion-option>
-              <ion-option value="bo">boehmei</ion-option>
-              <ion-option value="au">auratum</ion-option>
-              <ion-option value="ba">baumgarteni</ion-option>
-              <ion-option value="ep">eppicureanum</ion-option>
-              <ion-option value="sc">schroederi</ion-option>
-            </ion-select>
-          </ion-item>
-        </ion-card-header>     
-        <ion-card-content>
-          <ion-item>
-            <ion-label color="primary" stacked>Name</ion-label>
-            <ion-input placeholder="Name here"></ion-input>
-          </ion-item>
-        </ion-card-content>
-      </ion-card>
+    <img src="../../assets/img/camera.png" class="middle" width="200px" height="200px"/>
+    <br/> Upload Picture <br/>
+    <ion-item>  
+      <ion-label>Genus</ion-label>
+      <ion-select [(ngModel)]="genus">
+        <ion-option value="Brach">Brachypelma</ion-option>
+        <ion-option value="Psal">Psalmopoeus</ion-option>
+        <ion-option value="Avic">Avicularia</ion-option>
+        <ion-option value="Acan">Acanthoscurria</ion-option>
+        <ion-option value="Tapie">Tapinauchenius</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>  
+      <ion-label>Species</ion-label>
+      <ion-select [(ngModel)]="species">
+        <ion-option value="albo">albopilosum</ion-option>
+        <ion-option value="ha">hamorii</ion-option>
+        <ion-option value="ve">verdezi</ion-option>
+        <ion-option value="an">angustum</ion-option>
+        <ion-option value="sm">smithi</ion-option>
+        <ion-option value="em">emilia</ion-option>
+        <ion-option value="sa">sabulosum</ion-option>
+        <ion-option value="ka">kahlenbergi</ion-option>
+        <ion-option value="albi">albiceps</ion-option>
+        <ion-option value="bo">boehmei</ion-option>
+        <ion-option value="au">auratum</ion-option>
+        <ion-option value="ba">baumgarteni</ion-option>
+        <ion-option value="ep">eppicureanum</ion-option>
+        <ion-option value="sc">schroederi</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label color="primary" stacked>Name</ion-label>
+      <ion-input placeholder="Name here"></ion-input>
+    </ion-item>
+      <button ion-button block (click)="submit()">Confirm</button>
   </ion-content>
 </ion-content>
