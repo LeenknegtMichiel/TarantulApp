@@ -18,6 +18,7 @@ import { AuthServiceProvider } from '../providers/auth-service/auth-service';
 import { LoginPage } from '../pages/login/login';
 import { RegisterPage } from '../pages/register/register';
 import { DetailsPage } from '../pages/details/details';
+import { CreateNewPage } from '../pages/create-new/create-new';
 
 
 var config = {
@@ -38,7 +39,8 @@ var config = {
     TabsPage,
     LoginPage,
     RegisterPage,
-    DetailsPage
+    DetailsPage,
+    CreateNewPage
   ],
   imports: [
     BrowserModule,
@@ -56,7 +58,8 @@ var config = {
     TabsPage,
     LoginPage,
     RegisterPage,
-    DetailsPage
+    DetailsPage,
+    CreateNewPage
   ],
   providers: [
     StatusBar,

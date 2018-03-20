@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { DetailsPage } from '../details/details';
+import { CreateNewPage } from '../create-new/create-new';
 
 @Component({
   selector: 'page-home',
@@ -13,6 +14,9 @@ export class HomePage {
   }
   details(){
     this.navCtrl.push(DetailsPage);
+  }
+  CreateNew(){
+    this.navCtrl.push(CreateNewPage);
   }
   menu(){
     
