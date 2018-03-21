@@ -3,109 +3,109 @@
 		"Genus":{
 			"brachypelma":{
 				"species":{
-					0:"albiceps",
-					1:"albopilosum",
-					2:"auratum",
-					3:"baumgarteni",
-					4:"boehmei",
-					5:"emilia",
-					6:"epicureanum",
-					7:"hamorii",
-					8:"kahlenbergi",
-					9:"klaasi",
-					10:"sabulosum",
-					11:"schroederi",
-					12:"smithi",
-					13:"vagans",
-					14:"verdezi",
-					15:"fossorium"
+					"0":"albiceps",
+					"1":"albopilosum",
+					"2":"auratum",
+					"3":"baumgarteni",
+					"4":"boehmei",
+					"5":"emilia",
+					"6":"epicureanum",
+					"7":"hamorii",
+					"8":"kahlenbergi",
+					"9":"klaasi",
+					"10":"sabulosum",
+					"11":"schroederi",
+					"12":"smithi",
+					"13":"vagans",
+					"14":"verdezi",
+					"15":"fossorium"
 					}
 	
 	},
 			"psalmopoeus":{
 				"species":{
-					0:"cambridgei",
-					1:"ecclesiasticus",
-					2:"emeraldus",
-					3:"irminia",
-					4:"langenbucheri",
-					5:"maya",
-					6:"pulcher",
-					7:"reduncus",
-					8:"victorii"
+					"0":"cambridgei",
+					"1":"ecclesiasticus",
+					"2":"emeraldus",
+					"3":"irminia",
+					"4":"langenbucheri",
+					"5":"maya",
+					"6":"pulcher",
+					"7":"reduncus",
+					"8":"victorii"
 					}
 
 	},
 			"tapinauchenius":{
 				"species":{
-					0:"cupreus",
-					1:"elenae",
-					2:"gigas",
-					3:"latipes",
-					4:"plumipes",
-					5:"subcaeruleus",
-					6:"violaceus",
-					7:"hirsutum",
-					8:"sanctivincenti"
+					"0":"cupreus",
+					"1":"elenae",
+					"2":"gigas",
+					"3":"latipes",
+					"4":"plumipes",
+					"5":"subcaeruleus",
+					"6":"violaceus",
+					"7":"hirsutum",
+					"8":"sanctivincenti"
 					}
 	
 	},
 			"avicularia":{
 				"species":{
-					0:"avicularia",
-					1:"glauca",
-					2:"variegata",
-					3:"minatrix",
-					4:"taunayi",
-					5:"juruensis",
-					6:"rufa",
-					7:"purpurea",
-					8:"hirschii",
-					9:"merianae",
-					10:"lynnae",
-					11:"caei",
-					12:"metallica",
-					13:"arabica",
-					14:"aurantiaca",
-					15:"hirtipes",
-					16:"testacea",
-					17:"detrita",
-					18:"hirsutissima",
-					19:"holmbergi",
-					20:"rapax",
-					21:"ochracea",
-					22:"walckenaerii",
-					23:"azuraklaasi",
-					24:"braunshauseni",
-					25:"geroldi",
-					26:"huriana",
-					27:"ulrichea",
-					28:"soratae",
-					29:"fasciculata",
-					30:"surinamensis"
+					"0":"avicularia",
+					"1":"glauca",
+					"2":"variegata",
+					"3":"minatrix",
+					"4":"taunayi",
+					"5":"juruensis",
+					"6":"rufa",
+					"7":"purpurea",
+					"8":"hirschii",
+					"9":"merianae",
+					"10":"lynnae",
+					"11":"caei",
+					"12":"metallica",
+					"13":"arabica",
+					"14":"aurantiaca",
+					"15":"hirtipes",
+					"16":"testacea",
+					"17":"detrita",
+					"18":"hirsutissima",
+					"19":"holmbergi",
+					"20":"rapax",
+					"21":"ochracea",
+					"22":"walckenaerii",
+					"23":"azuraklaasi",
+					"24":"braunshauseni",
+					"25":"geroldi",
+					"26":"huriana",
+					"27":"ulrichea",
+					"28":"soratae",
+					"29":"fasciculata",
+					"30":"surinamensis"
 					}
 
 	},
 			"acanthoscurria":{
 				"species":{
-					0:"altmanni",
-					1:"antillensis",
-					2:"chacoana",
-					3:"geniculata",
-					4:"insubtilis",
-					5:"juruenicola",
-					6:"sternalis",
-					7:"suina"
+					"0":"altmanni",
+					"1":"antillensis",
+					"2":"chacoana",
+					"3":"geniculata",
+					"4":"insubtilis",
+					"5":"juruenicola",
+					"6":"sternalis",
+					"7":"suina"
 					}
 	
 	},
-			"Nhandu":{
+			"nhandu":{
 				"species":{
-					0:"chromatus",
-					1:"colorativollus",
-					2:"tripepii",
-					3:"carapoensis",
-					4:"cerradens"
+					"0":"chromatus",
+					"1":"colorativollus",
+					"2":"tripepii",
+					"3":"carapoensis",
+					"4":"cerradens"
 					}
 
 	}
